@@ -8,12 +8,12 @@
    $sql = "INSERT INTO cadastroinfo (user, email, senha) 
                VALUES ('$user', '$email', '$senha')";
 
-   if(mysqli_query($conn, $sql)){
-      echo "usuario cadastrado com sucesso";
-   }
-   else{
-      echo "deu errado maninho";
-   }
-   mysqli_close($conn);
+ if(mysqli_query($conn, $sql)){
+    echo "usuário cadastrado com sucesso";
+ }
+ else{
+    echo "houve um problema";
+ }
+ mysqli_close($conn);
  
 ?>
