@@ -12,7 +12,7 @@
     echo "usuario cadastrado com sucesso";
  }
  else{
-    echo "deu errado maninho";
+    echo "Erro ao cadastrar";
  }
  mysqli_close($conn);
  
